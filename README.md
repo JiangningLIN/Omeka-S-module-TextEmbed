@@ -1,6 +1,6 @@
 # Text Embed (for Omeka S)
 
-An Omeka S module to embed Texts directly in file or item pages.
+An Omeka S module to embed Texts (fils `.txt`) directly in file or item pages.
 
 Embedding on public item pages will only occur if the site's "Embed media on
 item pages" setting is enabled.
