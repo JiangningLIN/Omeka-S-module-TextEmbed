@@ -12,7 +12,7 @@ Installation
 
 * From the zip
 
-Download the last release [`TextEmbed.zip`] from the list of releases (the master does not contain the dependencies), uncompress it in the 'modules' directory, and rename the module folder 'TextEmbed'.
+Download the last release [`TextEmbed.zip`] [`TextEmbed.zip`] from the list of releases (the master does not contain the dependencies), uncompress it in the 'modules' directory, and rename the module folder 'TextEmbed'.
 
 * From the source and for development:
 
