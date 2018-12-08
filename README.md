@@ -25,8 +25,16 @@ The install it like any other Omeka Module.
 
 Use
 --------------
-You need to add new item: `item`--> `Add new item`--> `Value`--> `Media`--> `Upload`--> `Choisir un fichier`--> `Add` 
+You need to add new item (file `.txt`): `item` --> `Add new item` --> `Value` --> `Media` --> `Upload` --> `Choisir un fichier` --> `Add` 
 
 If item successfully created, you will get an message `Item successfully created. Add another item?`. 
 
 The file `.txt` name is displayed in the right area, you can click it to read.
+
+Warning
+--------------------------
+If you want to add a text that contains other language types, for exemple: `.css`, `.json`, `.java`, `html`, `php` ...
+
+You have to set it: [`Settings`] --> [`Security`] --> [`Disable file validation`] --> click here
+
+The MIME type of default text is `text/plain`, so files `.css`, `.json`, `.java` and `.js` can be embed directly, but files `.html`, `php`, `xml` and `.c`, the type of their text must be changed to `.txt`. 
